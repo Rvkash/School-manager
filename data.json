@@ -1,0 +1,44 @@
+{
+  "students": [
+    {
+      "avatar_url": "https://media-exp1.licdn.com/dms/image/C4E03AQFeC9T_6IgHEw/profile-displayphoto-shrink_200_200/0?e=1599091200&v=beta&t=wO3Bv_DndrF0yeMLdR_420vdeqJAdzgj9bbXlwZh5vk",
+      "name": "Rafael Linhares",
+      "email": "rafael.ieel@hotmail.com",
+      "birth": 827193600000,
+      "gender": "M",
+      "blood": "A1",
+      "class": "dev",
+      "period": "Morning",
+      "id": 1
+    }
+  ],
+  "teachers": [
+    {
+      "avatar_url": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
+      "birth": 1005177600000,
+      "created_at": 1593109401982,
+      "id": 1,
+      "gender": "==",
+      "services": "English teacher",
+      "name": "Rafaela"
+    },
+    {
+      "id": 2,
+      "avatar_url": "https://pbs.twimg.com/profile_images/1190279367429148672/qbeF0cUT_400x400.jpg",
+      "name": "Mayk Brito",
+      "birth": 480038400000,
+      "gender": "==",
+      "services": "Dev Instructor Launchbase",
+      "created_at": 1593375569846
+    },
+    {
+      "id": 3,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/2254731?s=460&u=c34dfbafb54d6bb7c3f715ebe93a811cc7355771&v=4",
+      "name": "Diego Fernandes",
+      "birth": 764035200000,
+      "gender": "==",
+      "services": "Dev Instructor GoStack",
+      "created_at": 1593377234645
+    }
+  ]
+}
