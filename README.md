@@ -1,3 +1,6 @@
+<h1 align="center">
+    <img src="img/img1.png"
+</h1>
 
 
 <h1 align="center"> School Manager </h1>
@@ -8,7 +11,7 @@
   </a> 
 </p> 
 
-## School Manager
+## :book: School Manager
 School Manager é um website com sistema de criação de alunos e professores desenvolvido no bootcamp da Rocketseat
 
 
