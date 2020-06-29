@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img src="img/img1.png
+    <img src="img/img1.png"
 </h1>
 
 
