@@ -1,8 +1,4 @@
 
-<h1 align="center">
-    <img alt="Launchbase" src="link aqui" width="400px" />
-</h1>
-
 
 <h1 align="center"> School Manager </h1>
 
