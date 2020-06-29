@@ -1,3 +1,6 @@
+<h1 align="center">
+    <img src="img/img1.png
+</h1>
 
 
 <h1 align="center"> School Manager </h1>
