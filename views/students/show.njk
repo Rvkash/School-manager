@@ -2,52 +2,74 @@
 
 {% block content %}
 
-<div class="card">
-	<section class="avatar" style="background: url({{ student.avatar_url }}) no-repeat center center /cover"></section>
+    <div class="card">
+        <section
+            class="avatar"
+            style="background: url({{ student.avatar_url }}) no-repeat center center /cover"></section>
 
-	<section class="details">
-		<h3>Detalhes</h3>
+        <section class="details">
+            <h3>Detalhes</h3>
 
-		<div class="item">
-			<div> Name </div>
-			<div> {{ student.name }} </div>
-		</div>
+            <div class="item">
+                <div>
+                    Name
+                </div>
+                <div>
+                    {{ student.name }}
+                </div>
+            </div>
 
-		<div class="item">
-			<div> Email </div>
-			<div> {{ student.email }} </div>
-		</div>
+            <div class="item">
+                <div>
+                    Email
+                </div>
+                <div>
+                    {{ student.email }}
+                </div>
+            </div>
 
-		<div class="item">
-			<div> Student Birthday </div>
-			<div> {{ student.birth }} </div>
-		</div>
+            <div class="item">
+                <div>
+                    Student Birthday
+                </div>
+                <div>
+                    {{ student.birth }}
+                </div>
+            </div>
 
-		<div class="item">
-			<div> Sex </div>
-			<div> {{ "Male" if  student.gender == "M" else "Female"}} </div>
-		</div>
+            <div class="item">
+                <div>
+                    Sex
+                </div>
+                <div>
+                    {{ "Male" if  student.gender == "M" else "Female"}}
+                </div>
+            </div>
 
+            <div class="item">
+                <div>
+                    Blood
+                </div>
+                <div>{{ student.blood }}</div>
+            </div>
 
-		<div class="item">
-			<div> Blood </div>
-			<div>{{ student.blood }}</div>
-		</div>
+            <div class="item">
+                <div>
+                    Class
+                </div>
+                <div>{{ student.class }}</div>
+            </div>
 
-		<div class="item">
-			<div> Class </div>
-			<div>{{ student.class }}</div>
-		</div>
+            <div class="item">
+                <div>
+                    Turn
+                </div>
+                <div>{{ student.turn }}</div>
+            </div>
 
-		<div class="item">
-			<div> Turn </div>
-			<div>{{ student.turn }}</div>
-		</div>
+            <a href="/students/{{ student.id }}/edit" class="button">Editar</a>
 
-		<a href="/students/{{ student.id }}/edit" class="button">Editar</a>
-
-
-	</section>
-</div>
+        </section>
+    </div>
 
 {% endblock content %}
