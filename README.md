@@ -14,6 +14,10 @@
 ## :book: School Manager
 School Manager é um website com sistema de criação de alunos e professores desenvolvido no bootcamp da Rocketseat
 
+<h1 align="center">
+    <img src="img/giff.gif">
+</h1>
+
 
 
 
@@ -29,7 +33,7 @@ Lançado em 2020</br>
 Esse projeto está sob a licença MIT. Veja o arquivo <a href="LICENSE">[LICENSE](/LICENSE) para mais detalhes.
 
     
-
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 Feito com :blue_heart: por [Rafael Linhares](https://www.linkedin.com/in/rafael-linhares-js/)
